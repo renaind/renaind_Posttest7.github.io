@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <title>POSTTEST 2 WEB</title>
+</head>
+<body class="body">
+    <!-- NAVIGATION BAR -->
+    <div class="container">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="logoi">Indonesia</div>
+                <div class="logod"> Dessert</div>
+            </div>
+            <input type="checkbox" onclick="ubahMode()">
+            <div class="header-search-bar"><input type="text" placeholder="Cari Dessert..." class="resizedTextbox" /></div>
+            <ul class="navigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+            
+        </nav>
+    </div>
+    <!-- NAVIGATION BAR-END -->
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <div class="main">
+            <div><img src="img_satuu.png" alt="img-satu" height="100%" width="100%"></div>
+            <div class="section-title"> <p><b>Dessert Food</b></p> </div>
+            <div class="food-content">
+              <div class="img-content"> <img src="food/food-01.png" alt="food-satu" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="food/food-02.png" alt="food-dua" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="food/food-03.png" alt="food-tiga" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="food/food-04.png" alt="food-empat" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="food/food-05.png" alt="food-lima" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="food/food-06.png" alt="food-enam" width="197px" height="197px"></div>
+            </div>
+            <div class="section-title"> <p><b>Dessert Drink</b></p></div>
+            <div class="drink-content"> <br>
+              <div class="img-content"> <img src="drink/drink-01.png" alt="drink-satu" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="drink/drink-02.png" alt="drink-dua" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="drink/drink-03.png" alt="drink-tiga" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="drink/drink-04.png" alt="drink-empat" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="drink/drink-05.png" alt="drink-lima" width="197px" height="197px"></div>
+              <div class="img-content"> <img src="drink/drink-06.png" alt="drink-enam" width="197px" height="197px"></div>
+            </div>
+    </div>
+    <!-- MAIN CONTENT-END -->
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div>
+            <div class="section-title"> <p><b>Tentang</b></p></div> <br> 
+            <div class="paragraf"><p>Website ini digunakan untuk memenuhi Post Test Praktikum Pemograman Web</p></div> <br>
+        </div>
+        <div class="section-title"> <p><b>About Me</b></p></div> <br>
+        <div class="foto-ku"><img src="rena.jpg" alt="saya" width="200px" height="200px"></div> <br>
+        <div class="biodata">
+            <p>Perkenalkan, Nama saya Rena Indah Choirunnisa dengan NIM 2009106126.</p>
+            <p>Saya dari Angkatan 2020. Saat ini saya sedang menempuh Program Studi</p>
+            </p>Informatika di Universitas Mulawarman. Terima Kasih ^^.</p> <br>
+        </div>
+        <div class="copyright">
+            <div> <p><b>Copyright 2022 @Rena Indah Choirunnisa</b></p></div> <br> 
+        </div>
+    </div>
+    <!-- FOOTER-END -->
+
+    <script>
+        function ubahMode(){
+            const ubah = document.body;
+            ubah.classList.toggle("dark");
+        }
+    </script>
+</body>
+</html>
